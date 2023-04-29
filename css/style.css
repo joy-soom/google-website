@@ -28,7 +28,7 @@
   outline: none;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -197,4 +197,28 @@ section.welcome {
   }
 }
 
-/* ###################################### feature ########################################## */
+/* ###################################### callaction ######################################## */
+
+section.callaction {
+  height: 280px;
+  background: #4285f4 url(/image/download-bg-desktop.svg) no-repeat center
+    center;
+  padding-top: 90px;
+}
+.callaction-inner {
+  text-align: center;
+}
+
+section.callaction h1 {
+  color: #fff;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+section.callaction .btn-download {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+section.callaction .btn-download:hover {
+  color: #000;
+  background-color: #fff;
+}
