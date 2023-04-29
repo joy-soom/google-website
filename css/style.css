@@ -21,8 +21,145 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Fontawesome 4.7 */
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/* XEION CDN */
-@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+/* Default CSS */
+* {
+  box-sizing: border;
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+}
+/* Reset CSS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* Common CSS */
+.btn-download {
+  background-color: dodgerblue;
+  color: #fff;
+  display: inline-block;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+}
+.btn-download:hover {
+  background-color: #174ea6;
+}
+
+/* ##################################### Header ############################################### */
+
+header {
+  height: 65px;
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.logo {
+  float: left;
+  padding-top: 16px;
+}
+.download {
+  float: right;
+  padding-top: 10px;
+}
+
+/* ###################################### welcome ############################################### */
+section.welcome {
+  height: 100vh;
+  background: #f8f9fb url(/image/hero-back-large-desktop.jpg) no-repeat center
+    center;
+  position: relative;
+}
+.heading {
+  position: absolute;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading img {
+  width: 65px;
+}
+.heading h1 {
+  font-size: 52px;
+  font-weight: 5;
+  line-height: 1.3em;
+  margin: 30px 0;
+}
+.download-content span {
+  display: block;
+  font-size: 13px;
+}
+.statics {
+  font-size: 13px;
+}
+.statics a {
+  color: dodgerblue;
+}
+.statics a :hover {
+  color: rgb(15, 100, 184);
+}
+.statics label input[type="checkbox"] {
+  transform: translateY(1px);
+}
+
+.next-section {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.next-section a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 36px;
+  line-height: 60px;
+}
+.next-section a i {
+  animation: next 1.2s linear infinite;
+}
+
+@keyframes next {
+  0% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+/* ################################# feature solution ########################################## */
+
+/* ################################## feature smart ############################################ */
+
+/* ################################# feature secure ############################################# */
+
+/* ################################# feature edit ############################################# */
