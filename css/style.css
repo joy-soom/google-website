@@ -222,3 +222,87 @@ section.callaction .btn-download:hover {
   color: #000;
   background-color: #fff;
 }
+/* ######################################### footer ########################################### */
+
+footer {
+}
+.footer-inner {
+  width: 1250px;
+  margin: auto;
+}
+.sns-outer {
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+.sns {
+  font-size: 20px;
+}
+.sns b {
+  font-weight: normal;
+}
+.sns a {
+  font-size: 24px;
+}
+.sitemap {
+  padding: 50px 0;
+}
+.link-items {
+  overflow: hidden;
+}
+.link-item {
+  float: left;
+  width: 20%;
+}
+.link-item-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.link-item-content {
+  line-height: 2.3em;
+}
+.link-item-content a {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+.link-item-content a:hover {
+  color: #000;
+}
+.copyright {
+  padding: 50px 0;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+  padding-bottom: 70px;
+}
+
+.logo-footer {
+  float: left;
+  transform: translateY(-4px);
+}
+.policy {
+  float: left;
+}
+.policy a {
+  margin: 10px;
+}
+.policy a:after {
+  content: "|";
+  font-size: 13px;
+  padding-left: 10px;
+  color: #ccc;
+}
+.policy a:last-child:after {
+  display: none;
+}
+.language {
+  float: right;
+}
+.language i {
+  font-size: 20px;
+  transform: translateY(3px);
+}
+.language select {
+  font-size: 16px;
+  padding: 3px;
+}
