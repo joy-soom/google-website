@@ -1,0 +1,83 @@
+/* 반응형 */
+@media (max-width: 768px) {
+  /* common css */
+  section {
+    padding: 0 25px !important;
+  }
+  .inner {
+    width: 100%;
+  }
+  .inner > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .feature.smart .inner,
+  .feature.edit .inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature.smart .inner .photo,
+  .feature.edit .inner .photo {
+    order: 2;
+  }
+  section.feature {
+    padding: 25px 0;
+  }
+  .desc {
+    padding: 0 20px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  .desc h1 {
+    font-size: 26px;
+    line-height: 1.5em;
+  }
+
+  /* header */
+  header .btn-download {
+    width: 150px;
+  }
+
+  /* welcome */
+  .heading {
+    width: 80%;
+  }
+  .heading h1 {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+  .download-content span {
+    display: none;
+  }
+  .statics {
+    display: none;
+  }
+  .next-section {
+    transform: translateX(-50%) scale(0.8);
+  }
+
+  /* callaction */
+  section.callaction {
+    background-image: url(/image/download-bg-mobile.svg);
+    padding-top: 80px !important;
+  }
+  section.callaction h1 {
+    font-size: 26px;
+  }
+
+  /* footer */
+  .footer-inner {
+    width: 100%;
+  }
+  .link-item {
+    float: none;
+    width: 100%;
+  }
+  .policy {
+    float: none;
+  }
+  .language {
+    float: none;
+  }
+}
