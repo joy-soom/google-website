@@ -35,8 +35,6 @@ https://soom-google.netlify.app/
 ![2023-05egegegeg-25 16;05;21](https://github.com/joy-soom/google-website/assets/110961576/c29b942b-ab53-4970-bac9-97814f51d1a6)
 
 
-<br><br>
-
 ## Stacks
 html<br>
 css<br>
